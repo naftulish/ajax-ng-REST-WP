@@ -1,0 +1,7 @@
+<p>home works!</p>
+
+<ul>
+    <li *ngFor='let x of ajax.posts'>
+        <h1  (click)='get_pos_content(x.id)'>{{ x.title.rendered }}</h1>
+    </li>
+</ul>
